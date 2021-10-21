@@ -1,0 +1,133 @@
+.BotsList{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 90%;
+    /* border: 3px solid red; */
+    /* height: 80%; */
+}
+.bots{
+    display: flex;
+    margin: 2%;
+    height: 75px;
+    /* border-radius: 5rem; */
+    box-shadow: 0 5px 2px 1px gray;
+}
+.botname{
+    /* padding-right:2% ; */
+    color: red;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: center;
+    align-self: center;
+}
+.cagrvalue{
+    width: 15%;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    /* color: lightgreen; */
+}
+
+#cagr-value{
+    color: green;
+    font-size: 1.2rem;
+}
+.indexvalue{
+    color:gray;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+}
+#index-value{
+    color: black;
+    font-size: 1.2rem;
+}
+.buttons{
+    width: 30%;
+    text-align: center;
+}
+.button{
+    outline: none;
+    box-shadow: 0 1px 1px 3px gray;
+    font-weight: bold;
+    width: 25%;
+    height: 60%;
+    border-radius: 10%;
+    margin: 0 5%;
+}
+.buy{
+    background: lightgreen;
+}
+@media(max-width:321px){
+    .bots{
+        margin: 4% 0;
+    }
+    .botname{
+        width: 35%;
+        font-size: 1rem;
+    }
+    #cagr-value{
+        font-size: 0.8rem;
+    }
+    .cagrvalue{
+        width: 20%;
+        font-size: 0.8rem;
+    }
+    .indexvalue{
+        width: 20%;
+        font-size: 0.8rem;
+    }
+    #index-value{
+        font-size: 0.8rem;
+    }
+    .buttons{
+        display: flex;
+        width: 25%;
+        text-align: left;
+        flex-direction: column;
+    }
+    .button{
+        width: 80%;
+        height: 50%;
+        /* margin: 0; */
+        margin: 15%;
+    }
+    .viewalgo{
+        height: 80%;
+        font-size: 0.6rem;
+    }
+}
+@media(min-width: 322px) and (max-width: 450px){
+    .bots{
+        margin: 4% 0;
+    }
+    .botname{
+        width: 40%;
+        font-size: 1rem;
+    }
+    .cagrvalue{
+        font-size: 0.8rem;
+    }
+    #cagr-value{
+        font-size: 0.8rem;
+    }
+    .indexvalue{
+        font-size: 0.8rem;
+    }
+    #index-value{
+        font-size: 0.8rem;
+    }
+    .buttons{
+        display: flex;
+        /* width: 25%; */
+        text-align: left;
+        flex-direction: column;
+    }
+    .button{
+        width: 80%;
+        height: 50%;
+        /* margin: 0; */
+        margin: 9%;
+    }
+}

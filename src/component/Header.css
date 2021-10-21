@@ -1,0 +1,88 @@
+.Header{
+    display: flex;
+    width: 100%;
+    height: 6%;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+.heading{
+    margin: 1% auto;
+}
+.navBar{
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    padding-left: 4%;
+}
+.dashboard{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.links{
+    width: 10%;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 1px 1px 3px gray;
+    border-radius: 15%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: lightsalmon;
+}
+.cart{
+    background: lightgoldenrodyellow;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+}
+
+hr{
+    margin: 0 0.5%;
+    background: black;
+}
+
+@media(max-width:321px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    .links{
+        margin:3% 2%;
+        /* padding-right: 2%; */
+        width: 25%;
+        height: 25px;
+    }
+    .dashboard{
+        font-size:0.6rem;
+    }
+    .cart{
+        font-size: 0.7rem;
+    }
+}
+
+@media(min-width: 322px) and (max-width: 450px){
+    .links{
+        margin:3% 2%;
+        width: 18%;
+        height: 25px;
+    }
+    .dashboard{
+        font-size:0.6rem;
+    }
+    .cart{
+        font-size: 0.7rem;
+    }
+}
+@media(min-width: 451px) and (max-width: 769px){
+    .links{
+        margin:2% 2%;
+        width: 12%;
+        height: 25px;
+    }
+    .dashboard{
+        font-size:0.6rem;
+    }
+    .cart{
+        font-size: 0.8rem;
+    }
+}
