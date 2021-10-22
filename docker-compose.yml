@@ -1,12 +1,12 @@
-version: "2"
-services: 
-    dev:
-        container_name: "bots_trading"
-        image: "trading_bots"
-        build: 
-            context: .
-            dockerfile: Dockerfile
-        ports: 
-          - "3000:3000"
-        volumes: 
-          -  ./:/app
+version: '3'
+services:
+  trading-bot-app:
+    container_name: 'bots_trading'
+    image: 'trading_bots'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - /:/src/index
