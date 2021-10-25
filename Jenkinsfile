@@ -10,7 +10,7 @@ pipeline{
                 steps{
                     sh "docker build -t bots-trading ."
                     sh "docker tag bots-trading aquib001/bots-trading"
-//                     sh "docker push aquib001/bots-trading"
+                    sh "docker push aquib001/bots-trading"
                 }
             }
             stage("deploy"){
