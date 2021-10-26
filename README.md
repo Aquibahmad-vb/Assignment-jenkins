@@ -2,4 +2,4 @@
 
 ## jenkins test pipeline
 
-![Screenshot from 2021-10-26 13-32-56](https://user-images.githubusercontent.com/89975183/138835351-710044a5-91b7-4412-8736-61f868e28ee1.png)
+![Screenshot from 2021-10-26 14-05-15](https://user-images.githubusercontent.com/89975183/138841976-05683291-ebf1-4b9b-a679-c0ca898f5c23.png)
