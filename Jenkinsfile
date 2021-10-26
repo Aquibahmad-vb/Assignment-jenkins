@@ -14,11 +14,10 @@ pipeline{
             // build stage where i build docker image and push to docker hub
             stage("build/push"){
                 steps{
-                    sh "docker login -u aquib001 -p Afreen@125"
                     sh "docker build -t $image ."  // build image
                     sh "docker push $image"  // push image to docker hub
                     sh "docker rmi -f $image"  // remove image 
-                }
+                }                                                                                                                                                                                                                                                                                               
             }
             // deploy  stage weher i pull docker image and run docker image 
             stage("deploy"){
