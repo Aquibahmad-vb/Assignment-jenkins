@@ -22,9 +22,9 @@ pipeline{
             // deploy  stage weher i pull docker image and run docker image 
             stage("deploy"){
                 steps{
-                    sh "docker pull $image" //push image from docker hub
+                    sh "docker pull $image" //pull image from docker hub
                     sh "docker run -d -p 3000:3000 $image" // run image 
                 }
             }
-	    }
+	}
 }
